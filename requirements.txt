@@ -1,0 +1,9 @@
+gradio
+langchain-google-genai
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+faiss-cpu
+pypdf
+python-dotenv
+sentence-transformers

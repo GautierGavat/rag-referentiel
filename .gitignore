@@ -1,0 +1,43 @@
+# ── Python ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Environnement virtuel ─────────────────────────────
+.venv/
+venv/
+env/
+.env
+
+# ── Variables d'environnement (clés API !) ────────────
+# Ne JAMAIS versionner .env — utiliser .env.example à la place
+.env
+
+# ── Index FAISS (fichiers binaires lourds) ────────────
+# Régénérer avec : python ingest.py
+rag/index/
+
+# ── Données brutes (PDF potentiellement volumineux) ───
+# Partager le PDF séparément ou via un lien
+rag/data/
+
+# ── OS & Éditeurs ─────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.code-workspace
+
+# ── Jupyter ───────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Docker ────────────────────────────────────────────
+.dockerignore
