@@ -113,8 +113,8 @@ PORT=7860
 |---|---|---|
 | `chunk_size` | 700 | Bon compromis entre contexte et précision sémantique |
 | `chunk_overlap` | 150 | Évite de couper une compétence entre deux chunks |
-| `k` (retriever) | 8 | Couvre davantage de compétences potentiellement liées |
-| `score_threshold` | 80.0 | Distance FAISS max pour retenir un chunk |
+| `k` (retriever) | 6 | Couvre davantage de compétences potentiellement liées |
+| `score_threshold` | 15.0 | Distance FAISS L2 max (0 = parfait, >15 = hors-sujet) |
 | Embedding | MiniLM-L12-v2 multilingue | Optimisé pour le français, léger, 100% local |
 | LLM | Gemini 2.5 Flash | Rapide, multilingue, streaming natif |
 | Température | 0 | Réponses factuelles et reproductibles |
