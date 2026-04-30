@@ -123,9 +123,19 @@ PORT=7860
 
 ## 💡 Exemples de questions à poser
 
-1. **Projet complet** : *"Mon projet déploie une API FastAPI avec Docker et un pipeline GitHub Actions. Quelles compétences RNCP couvre-t-il ?"*
-2. **Projet partiel** : *"J'ai créé un modèle de classification d'images avec TensorFlow mais sans déploiement. Quelles compétences me manquent ?"*
-3. **Question ciblée** : *"La compétence C11 est-elle validée si mon projet inclut un dashboard Grafana pour le monitoring ?"*
+### Scénario 1 — Projet complet
+> *"Mon projet déploie une API FastAPI avec Docker et un pipeline CI/CD GitHub Actions. Quelles compétences RNCP couvre-t-il ?"*
+
+**Résultat attendu** : Sofia identifie les compétences liées au développement API, la conteneurisation et l'intégration continue, avec citation du référentiel.
+
+### Scénario 2 — Projet incomplet
+> *"J'ai entraîné un modèle de classification d'images avec TensorFlow mais je n'ai ni déploiement ni documentation technique. Quelles compétences me manquent ?"*
+
+**Résultat attendu** : Sofia liste explicitement les compétences non couvertes (déploiement, MLOps, documentation) et suggère des améliorations prioritaires.
+
+### Autres questions supportées
+1. *"La compétence C11 est-elle validée si mon projet inclut un dashboard Grafana pour le monitoring ?"*
+2. *"Quelles compétences me manquent pour valider le bloc MLOps ?"*
 
 ---
 
@@ -176,4 +186,4 @@ python app.py
 
 ## 👤 Auteur
 
-Projet réalisé dans le cadre de la formation **Développeur en Intelligence Artificielle** chez [Simplon](https://simplon.co/).
+**Gautier Gavat** — Projet réalisé dans le cadre de la formation **Développeur en Intelligence Artificielle** chez [Simplon](https://simplon.co/).
